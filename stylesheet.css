@@ -1,0 +1,288 @@
+/*****************  NAVIGATION BAR **********************************/
+.NavBar {
+    transition: margin-right .5s;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+}
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+
+.NavBar li {
+    float: left; 
+    padding: 8px;
+}
+
+.NavBar li.split {
+    float: right;
+}
+
+.NavBar li.MyName {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/***************** SIDEBAR  ***********************************/
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+}
+
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+/*************************************************/
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(128, 0, 55);
+    width: auto;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.Main p {
+
+    text-align: center;
+    font-size: 50px;
+}
+
+
+section.HighlightText {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-size: 21px;
+}
+
+.heading {
+    margin-left: 75px;
+}
+
+/****************  HIGHLIGHT1 ***********************************/
+.RinaWebsite {
+    margin-top: 50px;
+    margin-left: 75px;
+    border-radius: 5px;
+    width: 500px;
+    height: 300px;
+}
+
+.Highlight1 #title1 {
+    background-color: #f0f0f0;
+    display: inline;
+    vertical-align: top;
+    text-align: center;
+    width: 700px;
+    font-size: 40px;
+    margin-left: 300px;
+    margin-right: 700px;
+
+    height: 50px;
+    width: 500px;
+}
+
+.Highlight1 #caption1 {
+    background-color: #f0f0f0;
+    display: inline;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 0px;
+    width: 500px;
+    height: 50px;
+}
+
+
+
+
+/******************  HIGHLIGHT2 *********************************/
+
+.FloursackStaticSceneRender {
+    float: right;
+    margin-top: 50px;
+    margin-right: 75px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    height: 300px;
+    width: 500px;
+
+}
+
+
+/********************  HIGHLIGHT3 *******************************/
+
+/************ COMPUTER SCIENCE STYLING  ****************/
+.Main-CS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(128, 0, 55);
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+}
+.Main-CS p {
+    text-align: center;
+    font-size: 45px;
+}
+
+
+section.HighlightText-CS {
+    font-size:35px;
+}
+
+/************ USER EXPERIENCE STYLING  ****************/
+.Main-UX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(128, 0, 55);
+    padding-left: 30%;
+    padding-right: 30%;
+    height: 300px;
+    border-radius: 5px;
+}
+.Main-UX p {
+    text-align: center;
+    font-size: 45px;
+}
+
+
+section.HighlightText-UX p {
+    font-size: 30px;
+    float: left;
+    display: inline;
+    padding: none;
+    margin: none;
+}
+
+div.UX_Intro p {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.UX_Intro #Definition1 {
+    width: 400px; 
+    margin-left: 150px;
+    padding: 45px; 
+    background-color: #f0f0f0;
+    text-align: left; 
+    display: inline-block; /
+}
+
+.UX_Intro #Definition2 {
+    width: 400px;
+    margin-left: 100px;
+    padding: 45px; 
+    background-color: #f0f0f0; 
+    text-align: left; 
+    display: inline-block; /
+}
+
+.UX_Intro #Definition3 {
+    width: 350px;
+    margin-left: 450px;
+    padding: 45px;
+    background-color: #f0f0f0;
+    text-align: left;
+    display: inline-block; /
+}
+
+.FigmaLogo {
+    margin-left: 250px;
+    width: 250px;
+    height: 250px;
+}
+
+.Adobe_PS {
+    margin-left: 50px;
+    margin-top: -100px;
+    width: 250px;
+    height: 250px;
+}
+.Adobe_AE {
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
+}
+/************ ANIMATION STYLING  ****************/
+.Main-ANIM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(128, 0, 55);
+    padding-left: 30%;
+    padding-right: 30%;
+    height: 300px;
+    border-radius: 5px;
+}
+.Main-ANIM p {
+    text-align: center;
+    font-size: 45px;
+}
+
+
+section.HighlightText-ANIM p {
+    font-size: 30px;
+    float: left;
+    display: inline;
+    padding: none;
+    margin: none;
+}
+
+div.ANIM_Intro p {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.treeDSMax {
+    margin-left: 150px;
+    width: 250px;
+    height: 250px;
+}
+
+.Maya {
+    margin-left: 50px;
+    margin-top: -100px;
+    width: 250px;
+    height: 250px;
+}
+.Unity {
+    margin-left: 50px;
+    width: 550px;
+    height: 250px;
+}
