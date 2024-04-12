@@ -122,7 +122,7 @@ section.HighlightText {
 
 
 
-/******************  HIGHLIGHT2 *********************************/
+/******************  HOMEPAGE STYLING : HIGHLIGHT2 *********************************/
 
 .FloursackStaticSceneRender {
     float: right;
@@ -135,6 +135,36 @@ section.HighlightText {
 
 }
 
+.ANIM_Images_HP {
+    display: inline-block;
+}
+
+.UX_Images_HP {
+    display: inline-block;
+    margin: 20px;
+}
+
+.treeDSMaxHP {
+    display: inline-block;
+    margin-left: 200px;
+    width: 195px;
+    height: 195px;
+}
+
+.MayaHP {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+}
+
+.UnityHP {
+    display: inline-block;
+    margin-left: 50px;
+    width: 550px;
+    height: 190px;
+}
 
 /********************  HIGHLIGHT3 *******************************/
 
@@ -220,7 +250,7 @@ div.UX_Intro p {
 }
 
 .FigmaLogo {
-    margin-left: 250px;
+    margin-left: 100px;
     width: 250px;
     height: 250px;
 }
@@ -232,6 +262,13 @@ div.UX_Intro p {
     height: 250px;
 }
 .Adobe_AE {
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+.Adobe_I {
+    display: inline-block;
     margin-left: 50px;
     width: 250px;
     height: 250px;
@@ -269,20 +306,31 @@ div.ANIM_Intro p {
     font-size: 18px;
 }
 
+div.Section p {
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+    font-size: 18px;
+}
+
 .treeDSMax {
+    display: inline-block;
     margin-left: 150px;
     width: 250px;
     height: 250px;
 }
 
 .Maya {
+    display: inline-block;
     margin-left: 50px;
     margin-top: -100px;
     width: 250px;
     height: 250px;
 }
 .Unity {
+    display: inline-block;
     margin-left: 50px;
-    width: 550px;
+    width: 650px;
     height: 250px;
 }
